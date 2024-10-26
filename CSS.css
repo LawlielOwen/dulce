@@ -1,0 +1,33 @@
+body{
+    background:linear-gradient(rgb(225, 72, 225),rgb(9, 145, 241));
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.fondo{
+    background-color: white;
+    padding: 120px 100px;
+    border-radius: 25px;
+    border: 0;
+}
+button{
+    padding: 10px 45px;
+    border-radius: 15px;
+    border: 0;
+    background-color:violet;
+    color:white;
+    margin: 5;
+    font-size: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color:rgb(9, 145, 241) ;
+    transition: all 0.5s ease;
+    letter-spacing: 1px;
+}
+h1{
+    margin-left: 20;
+}
